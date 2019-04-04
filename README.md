@@ -26,3 +26,33 @@
    测试ROS
     
     roscore
+## change hostname
+
+unable resolve host FriendlyELEC
+
+      sudo vim /etc/hosts
+      
+      127.0.0.1	FriendlyELEC
+      ::1		localhost ip6-localhost ip6-loopback
+      ff02::1		ip6-allnodes
+      ff02::2		ip6-allrouters
+   
+## language setting
+
+      perl: warning: Setting locale failed.
+      perl: warning: Please check that your locale settings:
+	   LANGUAGE = (unset),
+	   LC_ALL = (unset),
+	   LC_TIME = "zh_CN.UTF-8",
+	   LC_MONETARY = "zh_CN.UTF-8",
+	   LC_ADDRESS = "zh_CN.UTF-8",
+	   LC_TELEPHONE = "zh_CN.UTF-8",
+	   LC_NAME = "zh_CN.UTF-8",
+	   LC_MEASUREMENT = "zh_CN.UTF-8",
+	   LC_IDENTIFICATION = "zh_CN.UTF-8",
+	   LC_NUMERIC = "zh_CN.UTF-8",
+	   LC_PAPER = "zh_CN.UTF-8",
+	   LANG = "en_US.UTF-8"
+      
+      
+

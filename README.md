@@ -39,20 +39,25 @@ unable resolve host FriendlyELEC
    
 ## language setting
 
-      perl: warning: Setting locale failed.
-      perl: warning: Please check that your locale settings:
-	   LANGUAGE = (unset),
-	   LC_ALL = (unset),
-	   LC_TIME = "zh_CN.UTF-8",
-	   LC_MONETARY = "zh_CN.UTF-8",
-	   LC_ADDRESS = "zh_CN.UTF-8",
-	   LC_TELEPHONE = "zh_CN.UTF-8",
-	   LC_NAME = "zh_CN.UTF-8",
-	   LC_MEASUREMENT = "zh_CN.UTF-8",
-	   LC_IDENTIFICATION = "zh_CN.UTF-8",
-	   LC_NUMERIC = "zh_CN.UTF-8",
-	   LC_PAPER = "zh_CN.UTF-8",
-	   LANG = "en_US.UTF-8"
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+LANGUAGE = (unset),
+LC_ALL = (unset),
+LC_TIME = "zh_CN.UTF-8",
+LC_MONETARY = "zh_CN.UTF-8",
+LC_ADDRESS = "zh_CN.UTF-8",
+LC_TELEPHONE = "zh_CN.UTF-8",
+LC_NAME = "zh_CN.UTF-8",
+LC_MEASUREMENT = "zh_CN.UTF-8",
+LC_IDENTIFICATION = "zh_CN.UTF-8",
+LC_NUMERIC = "zh_CN.UTF-8",
+LC_PAPER = "zh_CN.UTF-8",
+		
+   安装 localepurge 管理语言文件
+   
+      sudo apt-get install localepurge
       
-      
-
+   选择我们想要的语言，例如 en_US.UTF-8 和 zh_CN.UTF-8。
+   
+      sudo locale-gen zh_CN.UTF-8 en_US.UTF-8
+  

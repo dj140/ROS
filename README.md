@@ -39,19 +39,19 @@ unable resolve host FriendlyELEC
    
 ## language setting
 
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-LANGUAGE = (unset),
-LC_ALL = (unset),
-LC_TIME = "zh_CN.UTF-8",
-LC_MONETARY = "zh_CN.UTF-8",
-LC_ADDRESS = "zh_CN.UTF-8",
-LC_TELEPHONE = "zh_CN.UTF-8",
-LC_NAME = "zh_CN.UTF-8",
-LC_MEASUREMENT = "zh_CN.UTF-8",
-LC_IDENTIFICATION = "zh_CN.UTF-8",
-LC_NUMERIC = "zh_CN.UTF-8",
-LC_PAPER = "zh_CN.UTF-8",
+perl: warning: Setting locale failed. <br>
+perl: warning: Please check that your locale settings: <br>
+LANGUAGE = (unset), <br>
+LC_ALL = (unset), <br>
+LC_TIME = "zh_CN.UTF-8", <br>
+LC_MONETARY = "zh_CN.UTF-8", <br>
+LC_ADDRESS = "zh_CN.UTF-8", <br>
+LC_TELEPHONE = "zh_CN.UTF-8",<br>
+LC_NAME = "zh_CN.UTF-8", <br>
+LC_MEASUREMENT = "zh_CN.UTF-8", <br>
+LC_IDENTIFICATION = "zh_CN.UTF-8", <br>
+LC_NUMERIC = "zh_CN.UTF-8", <br>
+LC_PAPER = "zh_CN.UTF-8", <br>
 		
    安装 localepurge 管理语言文件
    

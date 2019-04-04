@@ -64,8 +64,19 @@ LC_PAPER = "zh_CN.UTF-8", <br>
       sudo locale-gen zh_CN.UTF-8 en_US.UTF-8
   
 ## install ROS package
-	
-	
+
+    cd ~
+    git clone https://github.com/dj140/ROS.git
+    unzip lidar.zip && unzip rikirobot_project.zip
+    cd ~/ROS
+    sudo chmod +x *
+    ./dev_tools_install.sh && ./ros_packages_install.sh
+    sudo cp lidar rikirobot_project -R ~/catkin_ws/src
+    cd ~/catkin_ws
+    catkin_make -j1
+    cd ~/catkin_ws/devel 
+    source setup.bash
+    rospack profile
 ## install opencv
 
 参考 https://github.com/dj140/autocar <br>

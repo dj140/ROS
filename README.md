@@ -27,7 +27,6 @@
     
     roscore
     
-## 官方系统的一些小bug
 ## change hostname
 
 unable resolve host FriendlyELEC

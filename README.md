@@ -61,3 +61,11 @@ LC_PAPER = "zh_CN.UTF-8", <br>
    
       sudo locale-gen zh_CN.UTF-8 en_US.UTF-8
   
+# install opencv
+
+参考 https://github.com/dj140/autocar <br>
+有一处不同，Friend官方的lubuntu系统装不上opencv3.4，测试可以安装opencv3.2
+
+		wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.2.0.zip
+		wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.2.0.zip
+编译方面也要改成3.2.0
